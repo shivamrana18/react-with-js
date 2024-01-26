@@ -67,7 +67,7 @@ export default function CakeGallery() {
     <div>
       <h1>Cake Gallery</h1>
       <div
-        style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
+        style={{ display: "flex-container",flexdirection: "row-reverse", flexWrap: "wrap" }}
       >
         {cakes.map((item) => {
           return <Cake cake={item} key={item.cakeid} />;
